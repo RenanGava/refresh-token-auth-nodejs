@@ -18,8 +18,24 @@ PORT= "porta onde a plicaçào ira funcionar"
 JWT_SECRET_KEY= "chave para encripitar seus tokens JWT"
 
 DATABASE_URL= "url para o banco de dados seja SQL ou NoSQL"
+
+
 ```
 
+### 📋 Configurar o banco de dedados
+
+Para a aplicação funcionar corretamente deve haver um arquivo ```.env``` na sua aplicação
+com essas variaveis de ambiente
+
+```
+POSTGRES_HOST=postgress
+POSTGRES_PORT=5432
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=admin
+POSTGRES_DB=study_refreshToken
+
+
+```
 ### 🔧 Instalação
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.

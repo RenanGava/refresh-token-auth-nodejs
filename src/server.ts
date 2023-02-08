@@ -20,5 +20,5 @@ app.use((error:Error, request:Request, response:Response, next:NextFunction) =>{
 
 
 app.listen(process.env.PORT, () =>{
-    console.log("Servidor Rodando " + process.env.PORT)
+    console.log("Servidor Rodando " + process.env.PORT + process.env.DATABASE_URL)
 })
